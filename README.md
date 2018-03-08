@@ -1,5 +1,6 @@
 # WKNetwork
 
+
 [![CI Status](http://img.shields.io/travis/objective/WKNetwork.svg?style=flat)](https://travis-ci.org/objective/WKNetwork)
 [![Version](https://img.shields.io/cocoapods/v/WKNetwork.svg?style=flat)](http://cocoapods.org/pods/WKNetwork)
 [![License](https://img.shields.io/cocoapods/l/WKNetwork.svg?style=flat)](http://cocoapods.org/pods/WKNetwork)
@@ -27,3 +28,6 @@ objective, wangkai@ctdcn.com
 ## License
 
 WKNetwork is available under the MIT license. See the LICENSE file for more info.
+
+一个Alamofire的Swift版本的网络请求框架
+
