@@ -1,7 +1,7 @@
 {
   "name": "WKNetwork",
-  "version": "0.1.0",
-  "summary": "A short description of WKNetwork.",
+  "version": "0.1.1",
+  "summary": "一个Alamofire的Swift版本的网络请求框架",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/objective/WKNetwork",
   "license": {
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/objective/WKNetwork.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WKNetwork/Classes/**/*"
+  "source_files": "WKNetwork/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
 }

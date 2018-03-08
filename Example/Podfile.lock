@@ -1,5 +1,7 @@
 PODS:
-  - WKNetwork (0.1.0)
+  - Alamofire (4.7.0)
+  - WKNetwork (0.1.1):
+    - Alamofire
 
 DEPENDENCIES:
   - WKNetwork (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WKNetwork: de34ee2c22d5e89ed3723675962566a5612ea795
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  WKNetwork: 2bb9272397d81a3dd43a44a0f93170ae3411f361
 
 PODFILE CHECKSUM: abb9640c17e706317df8f160e20985edad739db1
 
