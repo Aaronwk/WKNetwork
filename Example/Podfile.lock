@@ -1,0 +1,16 @@
+PODS:
+  - WKNetwork (0.1.0)
+
+DEPENDENCIES:
+  - WKNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  WKNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKNetwork: de34ee2c22d5e89ed3723675962566a5612ea795
+
+PODFILE CHECKSUM: abb9640c17e706317df8f160e20985edad739db1
+
+COCOAPODS: 1.2.1

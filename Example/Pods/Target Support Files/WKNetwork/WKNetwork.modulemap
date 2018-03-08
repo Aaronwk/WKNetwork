@@ -1,0 +1,6 @@
+framework module WKNetwork {
+  umbrella header "WKNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_WKNetwork_Tests {
+  umbrella header "Pods-WKNetwork_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "WKNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of WKNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/objective/WKNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "objective": "wangkai@ctdcn.com"
+  },
+  "source": {
+    "git": "https://github.com/objective/WKNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKNetwork/Classes/**/*"
+}
