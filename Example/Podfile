@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WKNetwork_Example' do
+  pod 'WKNetwork', :path => '../'
+
+  target 'WKNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
