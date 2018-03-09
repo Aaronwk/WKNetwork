@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.7.0)
-  - WKNetwork (0.1.1):
+  - WKNetwork (0.1.2):
     - Alamofire
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
-  WKNetwork: 2bb9272397d81a3dd43a44a0f93170ae3411f361
+  WKNetwork: 3743a0adf52aca27f576e31c486591bb06835b98
 
 PODFILE CHECKSUM: abb9640c17e706317df8f160e20985edad739db1
 

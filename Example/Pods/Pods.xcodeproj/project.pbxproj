@@ -11,10 +11,9 @@
 		12B4AFF7775B491F77AC1CDB5907D6A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229CAF06D7F0C760344C7314C8DF46E7 /* Pods-WKNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D21422A71371390F3644046EE12FC4 /* Pods-WKNetwork_Tests-dummy.m */; };
-		2883E5821F667D2408269AD711652218 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D100A051238A750817841CDE5AFF6 /* ReplaceMe.swift */; };
+		240A5B9CE43066F40895607CBC1ADF38 /* WKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C04B2FCE336AA40DD3EF7EC6ED9AF7 /* WKNetwork-dummy.m */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
-		542C975C16192D06F58393AE5A83A286 /* WKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C04B2FCE336AA40DD3EF7EC6ED9AF7 /* WKNetwork-dummy.m */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
@@ -36,6 +35,7 @@
 		E0DE76B88EE51678D60AF2657051D52A /* Pods-WKNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA470908FA790EF2DEAE26328B7E6383 /* Pods-WKNetwork_Example-dummy.m */; };
 		E1F42A064B2CC854FC240FF7360B196A /* Pods-WKNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7664299106134FDBD37C850A31475F20 /* Pods-WKNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
+		F684B46708730E7BFF4CBA19801E7E3A /* WKNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF2DB91850B884919C9AEA5187A335 /* WKNetwork.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
@@ -82,12 +82,12 @@
 		2D3B1893E6E43B0247EBF2A5F3BFA086 /* Pods-WKNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		3EBF2DB91850B884919C9AEA5187A335 /* WKNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WKNetwork.swift; sourceTree = "<group>"; };
 		4297B2904C6E49FBC734A00954AAACFD /* Pods-WKNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		4BBB142D0CA2ADAACBDA23DE45831314 /* Pods-WKNetwork_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKNetwork_Example-resources.sh"; sourceTree = "<group>"; };
 		4D8E4978EFA54A74E1EE37C750759F0B /* Pods-WKNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F2D100A051238A750817841CDE5AFF6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		523C01A0931FEC50447E58AB92F25DA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5828517DE792E8C02E1A093A4454EFC6 /* Pods-WKNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WKNetwork_Example.modulemap"; sourceTree = "<group>"; };
 		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
@@ -250,6 +250,15 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
+		59B6EEC5EA537F16EB341F8EA521EF6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3EBF2DB91850B884919C9AEA5187A335 /* WKNetwork.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		59B91F212518421F271EBA85D5530651 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,7 +271,7 @@
 		64A216E49BBB778F525FDB0754D71466 /* WKNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				F95A9798C7152B73373D7E646E0618C5 /* Classes */,
+				59B6EEC5EA537F16EB341F8EA521EF6D /* Classes */,
 			);
 			name = WKNetwork;
 			path = WKNetwork;
@@ -333,15 +342,6 @@
 			);
 			name = WKNetwork;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		F95A9798C7152B73373D7E646E0618C5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4F2D100A051238A750817841CDE5AFF6 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,7 +422,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CB12EFF3D937B134D3CAB8D5DF916CE /* Build configuration list for PBXNativeTarget "WKNetwork" */;
 			buildPhases = (
-				A6DECB137A08F9B93A5D4D9829D1F089 /* Sources */,
+				E835E900CB95226BEE107025C18CE277 /* Sources */,
 				3C8CE1E9F1BD754A97F2F863D2AD8DC1 /* Frameworks */,
 				C2725BA94D833FB1596DBD5E7F3A19C6 /* Headers */,
 			);
@@ -524,12 +524,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6DECB137A08F9B93A5D4D9829D1F089 /* Sources */ = {
+		E835E900CB95226BEE107025C18CE277 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2883E5821F667D2408269AD711652218 /* ReplaceMe.swift in Sources */,
-				542C975C16192D06F58393AE5A83A286 /* WKNetwork-dummy.m in Sources */,
+				240A5B9CE43066F40895607CBC1ADF38 /* WKNetwork-dummy.m in Sources */,
+				F684B46708730E7BFF4CBA19801E7E3A /* WKNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
