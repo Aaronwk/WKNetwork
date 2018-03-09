@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WKNetwork'
-  s.version          = '0.1.4'
-  s.summary          = '一个Alamofire的Swift版本的网络请求框架'
+  s.version          = '0.1.5'
+  s.summary          = 'WKNetwork......'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
