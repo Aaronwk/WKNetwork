@@ -37,11 +37,11 @@ extension WKNetwork {
     /// 开启日志：默认 false
     ///
     /// - Parameter isLog: log
-    public class func isLog(isLog:Bool) {
+   @objc public class func isLog(isLog:Bool) {
         WKNetwork.manager.client.isLog = isLog
     }
     
-    public class Client:NSObject {
+    @objc public class Client:NSObject {
         public var isLog:Bool = false
         
     }

@@ -39,7 +39,7 @@ open class WKNetwork: NSObject {
     
     public var client:Client = Client.init()
    
-    open class func request(_ config:(WKRequest)->(),suc: ((Any?)->())?, fail: ((Error)->())?) {
+   @objc open class func request(_ config:(WKRequest)->(),suc: ((Any?)->())?, fail: ((Error)->())?) {
         
         let request = WKRequest.init()
         config(request)
