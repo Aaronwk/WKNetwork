@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WKNetwork
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        WKNetwork.setupWithEnv(env: .test,
+                               proto: .http,
+                               host: "171.211.225.186",
+                               port: ":1012/",
+                               pref: ".dev",
+                               timeOut: 90)
+        WKNetwork.isLog(isLog: false)
+        
         return true
     }
 
