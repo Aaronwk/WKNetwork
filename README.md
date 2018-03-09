@@ -23,11 +23,36 @@ pod 'WKNetwork'
 
 ## Author
 
-objective, wangkai@ctdcn.com
+王凯, wangkai@ctdcn.com
 
 ## License
 
 WKNetwork is available under the MIT license. See the LICENSE file for more info.
 
 一个Alamofire的Swift版本的网络请求框架
+
+## 使用
+###Appdelegate.swift 调用
+```
+WKNetwork.setupWithEnv(env: .test,
+						 proto: .http,
+						  host: "0.0.0.0",
+						  port: ":8080/",
+						  pref: ".dev",
+					   timeOut: 90)
+// 日志
+WKNetwork.isLog(isLog: false)
+
+```
+###请求入口
+```
+WKNetwork.request({ (r) in
+	r.path = ""
+	r.responseType = .text
+}, suc: { (s) in
+	print(s ?? "")
+}) { (e) in
+
+}
+```
 
